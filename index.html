@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Iskenderun Teknik Üniversitesi IEEE Topluluğu"
+    />
+    <meta name="keywords" content="IEEE" />
+    <meta name="author" content="Mehmet Ali Lislas" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEEE ISTE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" sizes="192x192" href="images/iste_arma.ico" />
+  </head>
+  <!-- SMOOTH SCROLL SCRIPT -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+  </script>
+  <!-- SMOOTH SCROLL SCRIPT -->
+  <body id="homepage">
+    <!-- HEADER MAIN TOP MENU START -->
+    <header>
+      <a href="index.html">
+        <img src="images/yatay_logo.png" class="logo" alt="logo"
+      /></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#homepage">Anasayfa</a></li>
+          <li><a href="#commitiees">Komitelerimiz</a></li>
+          <li><a href="#events">Etkinliklerimiz</a></li>
+          <li class="nav-mobile-1"><a href="#">Ekibimiz</a></li>
+          <li class="nav-mobile-2"><a href="#">Hakkımızda</a></li>
+          <li><a href="#footer">İletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- HEADER MAIN TOP MENU END -->
+    <!-- ----------------------------------------------------------------------------------------- -->
+    <!-- MAIN CONTENTS START -->
+    <div class="container">
+      <img src="images/main-right.png" class="img-align-right" />
+      <p class="line1">IEEE ISTE</p>
+      <p class="line2">Student Branch</p>
+      <p class="description">
+        Çünkü sende hissettiğinden fazlası var. <br />
+        Hem eğlenmek, hem de kendini geliştirmek istiyorsan <br />
+        sen de bize katıl!
+      </p>
+      <a
+        class="btn-join"
+        href="https://forms.gle/DiC9VgziokKdYLon8"
+        id="commitiees"
+        target="_blank"
+        >Hemen Katıl!</a
+      >
+    </div>
+    <!-- MAIN CONTENTS END -->
+    <!-- /////////////////////////////// -->
+    <!-- COMMITIEES START -->
+    <br />
+    <center>
+      <h1 class="com-h1">KOMİTELERİMİZ</h1>
+      <br />
+
+      <div class="column menu">
+        <ul>
+          <button class="col-btn" onclick="window.location.href = 'pes.html';">
+            PES
+          </button>
+          <button class="col-btn" onclick="window.location.href = 'ras.html';">
+            RAS
+          </button>
+        </ul>
+        <ul>
+          <button class="col-btn" onclick="window.location.href = 'wie.html';">
+            WIE
+          </button>
+          <button class="col-btn" onclick="window.location.href = 'cs.html';">
+            CS
+          </button>
+        </ul>
+        <ul>
+          <button class="col-btn" onclick="window.location.href = 'itkk.html';">
+            ITKK
+          </button>
+          <button class="col-btn" onclick="window.location.href = 'ttk.html';">
+            TTK
+          </button>
+        </ul>
+        <ul>
+          <button class="col-btn" onclick="window.location.href = 'embs.html';">
+            EMBS
+          </button>
+          <button class="col-btn" onclick="window.location.href = 'ea.html';">
+            EA
+          </button>
+        </ul>
+      </div>
+    </center>
+    <!-- COMMITIEES END -->
+    <!-- ////////////////////////////////// -->
+    <!-- EVENTS START -->
+    <div class="events" id="events">
+      <table class="image-table">
+        <tbody>
+          <tr>
+            <td>
+              <img src="images/1.jpeg"  />
+            </td>
+            <td>
+              <img src="images/3.jpeg" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="image-table">
+        <tbody>
+          <tr>
+            <td>
+              <img src="images/2.jpeg" />
+            </td>
+            <td>
+              <img src="images/4.jpeg"  />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table>
+    <table class="image-table">
+      <tbody>
+        <tr>
+          <td>
+            <img src="images/6.jpeg" />
+          </td>
+          <td>
+            <img src="images/5.jpeg"  />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <!-- EVENTS END -->
+    <!-- ////////////////////////////////////////////////////////////////// -->
+    <!-- FOOTER START -->
+    <div class="footer" id="footer">
+      <center>
+        <h1>İletişim</h1>
+        <a
+          class="footer"
+          href="https://forms.gle/DiC9VgziokKdYLon8"
+          target="_blank"
+          >Hemen Katıl!</a
+        >
+        <p>
+          Veya başka bir konu hakkında bize ulaşmak isterseniz <br />
+          <a class="mail" href="mailto:ieee.iste@gmail.com"
+            >ieee.iste@gmail.com</a
+          >
+          adresine mail atabilirsiniz.
+        </p>
+        <br />
+      </center>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h1 title="IEEE ISTE">IEEE ISTE</h1>
+        <tr>
+          <td>
+            <a class="social" href="https://www.instagram.com/ieeeiste/?hl=tr"
+              >Instagram</a
+            >
+          </td>
+          <td>
+            <a class="social" href="https://twitter.com/ieeeiste">Twitter</a>
+          </td>
+          <td>
+            <a
+              class="social"
+              href="https://tr.linkedin.com/in/ieee-iste-521342189"
+              >LinkedIn</a
+            >
+          </td>
+        </tr>
+      </div>
+      <div class="footer-content-author">
+        <p title="© 2021 IEEE ISTE & Mehmet Ali Lislas, All Rights Reserved">
+          Copyright © 2021 IEEE ISTE | Designed by IEEE ISTE & Mehmet Ali Lislas
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
