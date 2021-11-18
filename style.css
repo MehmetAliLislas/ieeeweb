@@ -91,12 +91,18 @@ header {
   padding-top: 60px;
   padding-left: 90px;
   font-weight: 500;
+  background: linear-gradient(to right, #30CFD0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .line2 {
   font-size: 55px;
   color: #f2f2f2;
   padding-left: 90px;
   font-weight: 500;
+  background: linear-gradient(to right, #30CFD0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .description {
   padding-left: 90px;
@@ -104,6 +110,7 @@ header {
   padding-top: 95px;
   font-weight: 400;
   font-size: 20px;
+  text-shadow: 0 0 80px rgb(192 219 255 / 60%), 0 0 32px rgb(65 120 255 / 25%);
 }
 
 /* ///////////////////////////////////////////////////////////////////// */
@@ -333,7 +340,7 @@ img {
 
   .btn-join {
     margin-top: 20px;
-    margin-left: 31%;
+    margin-left: 32%;
     border-radius: 25px;
     display: block;
     padding: 13px 2%;
@@ -416,7 +423,7 @@ img {
     height: auto;
     width: 100%;
     font-weight: 200;
-    font-size: 13px;
+    font-size: 9px;
     text-align: center;
   }
   /* ////////////////////////////////////////////////////////////////// */
